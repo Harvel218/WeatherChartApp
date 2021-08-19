@@ -34,6 +34,7 @@ body {
   background-image: url("~@/assets/weather.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding: 24px 0;
 }
 </style>

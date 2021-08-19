@@ -99,7 +99,7 @@ export default {
       }
       axios
         .get(
-          `http://api.openweathermap.org/data/2.5/weather?q=${this.city}&lang=en&units=metric&appid=${this.API_KEY}`
+          `https://api.openweathermap.org/data/2.5/weather?q=${this.city}&lang=en&units=metric&appid=${this.API_KEY}`
         )
         .then((response) => {
           this.cityWeatherData = response.data;

@@ -70,7 +70,6 @@ export default {
     DailyCityInfo,
     Loading,
   },
-  props: {},
 
   data() {
     return {

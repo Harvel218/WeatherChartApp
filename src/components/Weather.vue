@@ -13,8 +13,13 @@
         type="search"
         name="search"
         v-model="city"
+        :disabled="loading"
       />
-      <button class="content__search--button" @click="getCurrentCityWeather">
+      <button
+        class="content__search--button"
+        @click="getCurrentCityWeather"
+        :disabled="loading"
+      >
         Find
       </button>
     </nav>
